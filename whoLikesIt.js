@@ -20,8 +20,8 @@ function likes(names) {
   }
 }
 
-console.log(likes([]));
-console.log(likes(["peter"]));
-console.log(likes(["peter", "paul"]));
-console.log(likes(["peter", "paul", "dre"]));
-console.log(likes(["peter", "paul", "dre", "shola", "parker"]));
+// console.log(likes([]));
+// console.log(likes(["peter"]));
+// console.log(likes(["peter", "paul"]));
+// console.log(likes(["peter", "paul", "dre"]));
+// console.log(likes(["peter", "paul", "dre", "shola", "parker"]));

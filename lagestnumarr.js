@@ -1,4 +1,4 @@
-//RETURN LARGEST NUMBER IN ARRAY
+// // RETURN LARGEST NUMBER IN ARRAY
 // var arrSet = [
 //   [4, 5, 1, 2],
 //   [13, 27, 18, 26],
@@ -22,6 +22,8 @@
 //   }
 //   return maxes;
 // }
+
+// console.log(largestNum(arrSet));
 
 // OR
 

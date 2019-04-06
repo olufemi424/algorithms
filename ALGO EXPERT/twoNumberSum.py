@@ -35,7 +35,7 @@
 
 # twoNumberSum([3, -1, 5, -4, 8, 11, 6, 1], 10)
 
-
+# 0(nLog(n)) time | 0(1) space
 # def twoNumberSum(array, targetSum):
 #     array.sort()
 #     print(array)

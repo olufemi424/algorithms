@@ -17,11 +17,11 @@ const isValid = function(s) {
       }
     } else {
       stack.push(ch);
-      console.log(stack);
+      // console.log(stack);
     }
   }
 
   return stack.length === 0;
 };
 
-isValid("(((())");
+console.log(isValid("(((())"));

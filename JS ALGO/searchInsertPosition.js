@@ -25,7 +25,7 @@ const searchInsert = function(nums, target) {
 };
 
 const arr = [1, 3, 5, 6];
-console.log(searchInsert(arr, 5));
+console.log(searchInsert(arr, 7));
 
 //nums.length -> number of items
 //nums.length - 1 -> index of the last element

@@ -13,7 +13,7 @@ class BinarySearchTree {
     // root of a binary search tree
     this.root = null;
   }
-  //functuons
+  //functions
   // helper method which creates a new node to be inserted and call inserNot
   insert(data) {
     // create a new node with data

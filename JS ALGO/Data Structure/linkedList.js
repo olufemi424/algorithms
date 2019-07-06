@@ -156,13 +156,22 @@ l1.add(1);
 l1.add(2);
 l1.add(3);
 l1.add(4);
-l1.printList();
-l1.insertAt(10, 1);
-l1.printList();
-l1.removeFrom(3);
-l1.printList();
-l1.removeElement(4);
-l1.printList();
-console.log(l1.indexOf(2));
-console.log(l1.isEmpty());
-l1.size_of_list();
+// l1.printList();
+// l1.insertAt(10, 1);
+// l1.printList();
+// l1.removeFrom(3);
+// l1.printList();
+// l1.removeElement(4);
+// l1.printList();
+// console.log(l1.indexOf(2));
+// console.log(l1.isEmpty());
+// l1.size_of_list();
+
+///print reversed linkedLinst
+function printReversedLinkedList(node) {
+  if (node == null) return;
+  printReversedLinkedList(node.next);
+  console.log(node.element);
+}
+
+printReversedLinkedList(l1.head);

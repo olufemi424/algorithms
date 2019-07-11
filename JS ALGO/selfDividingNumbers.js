@@ -12,14 +12,13 @@ const checkIfDivisible = num => {
   const strNumArr = num.toString().split("");
 
   return strNumArr.every(letter => {
-    console.log(num, letter);
     if (letter === 0 || num % letter !== 0) {
+      console.log("not pushed", num);
       return false;
     }
+    console.log("pushed");
     return true;
   });
 };
-
-// checkIfDivisible(1)
 
 console.log(selfDividingNumbers(1, 22));

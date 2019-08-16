@@ -6,7 +6,7 @@ const uniqueEmail=(emails)=>{
    for(email of emails){
       const [, local, domain] = email.match(/(.*)@(.*)/);
       const user = local.replace(/\./g, '').replace(/\+.*/, '');
-      const key = `${user}${domain}`
+      const key = `${user}@${domain}`
       set.add(key)
    }
    return set.size

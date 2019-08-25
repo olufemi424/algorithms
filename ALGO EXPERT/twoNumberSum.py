@@ -22,37 +22,32 @@
 #     nums = {}
 #     for num in array:
 #         potentialMatch = targetSum - num
-#         print(potentialMatch)
 #         if potentialMatch in nums:
-#             print([potentialMatch, num])
 #             return [potentialMatch, num]
 #         else:
 #             nums[num] = True
 #             print(nums)
-#     print([])
 #     return []
 
 
 # twoNumberSum([3, -1, 5, -4, 8, 11, 6, 1], 10)
 
+#sort the array
+# pointer at the edge of the list L, R, if the sum of the items on the edge is greater than the target,then move the right pointer in one space backwards. if the sum is less than the target number, then move the pointer on the left forward. if the target are the same, return the array of the items on the left and right position.if not return an empty array
+
 # 0(nLog(n)) time | 0(1) space
 # def twoNumberSum(array, targetSum):
 #     array.sort()
-#     print(array)
 #     left = 0
 #     right = len(array) - 1
 #     while left < right:
-#         print(array[left], array[right])
 #         currentSum = array[left] + array[right]
-#         print(currentSum)
 #         if currentSum == targetSum:
-#             print([array[left], array[right]])
 #             return [array[left], array[right]]
 #         elif currentSum < targetSum:
 #             left += 1
 #         elif currentSum > targetSum:
 #             right -= 1
-#     print([])
 #     return []
 
 

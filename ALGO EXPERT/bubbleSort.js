@@ -1,6 +1,9 @@
 
 // go thru the array every single time untill all numbers are swapped to be in their corrrect position
 
+//if the current number we are looking at is greater than the next one, we want to swap the number, and set the while loop condition to me true.
+
+
 function bubbleSort(arr){
    let isSorted = true
 
@@ -13,7 +16,6 @@ function bubbleSort(arr){
          }
       }
    }
-
    return arr
 }
 

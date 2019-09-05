@@ -8,7 +8,7 @@
 // Explanation: [4,7,2,5], [2,5,4,7], [2,7,4,5] would also have been accepted.
 
 /**
- * @param {number[]} A
+ * @param {number[]} 
  * @return {number[]}
  */
 var sortArrayByParityII = function(A) {

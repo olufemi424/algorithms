@@ -27,4 +27,4 @@ const fib = n => {
   return arr;
 };
 
-console.log(fib(4));
+// console.log(fib(4));

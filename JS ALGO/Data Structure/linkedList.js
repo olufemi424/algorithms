@@ -167,11 +167,30 @@ l1.add(4);
 // console.log(l1.isEmpty());
 // l1.size_of_list();
 
-///print reversed linkedLinst
-function printReversedLinkedList(node) {
-  if (node == null) return;
-  printReversedLinkedList(node.next);
-  console.log(node.element);
-}
+// console.log(l1)
 
-printReversedLinkedList(l1.head);
+///print reversed linkedLinst
+// function printReversedLinkedList(node) {
+//   if (node == null) return;
+//   printReversedLinkedList(node.next);
+//   console.log(node.element);
+// }
+
+// printReversedLinkedList(l1.head); 
+
+
+// function reversedLinkedList(head){
+//   let p1 = null
+//   let p2 = head
+
+//   while(p2 !== null){
+//     p3 = p2.next 
+//     p2.next = p1
+//     p1 = p2
+//     p2 = p3
+//   }
+//   return p1
+// }
+
+// console.log(reversedLinkedList(l1.head))
+

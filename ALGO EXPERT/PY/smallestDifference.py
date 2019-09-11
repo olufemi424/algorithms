@@ -6,21 +6,21 @@ def smallestDifference(arrayOne, arrayTwo):
    smallest = float('inf')
    current = float('inf')
    smallestPair = []
-   while idxOne < len(arrayOne) and idxTwo < len(arrayTwo):
+   while idxOne < len(arrayOne) and idxTwo < len(arrayTwo): # stuck in the while loop
       firstNum = arrayOne[idxOne]
       secondNum = arrayTwo[idxTwo]
-      if firstNum < secondNum:
+      if firstNum < secondNum: # (1)
          current = secondNum - firstNum
          idxOne += 1
-      elif secondNum < firstNum:
+      elif secondNum < firstNum: # (1)
          current = firstNum - secondNum
          idxTwo += 1
-      else: 
+      else: # (1)
          return [firstNum, secondNum]
       
-      if smallest > current:
-         smallest = current
-         smallestPair = [firstNum, secondNum]
+      if smallest > current: # (2)
+         smallest = current # (3)
+         smallestPair = [firstNum, secondNum] # (4)
    return smallestPair
 
 

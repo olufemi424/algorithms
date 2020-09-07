@@ -2,7 +2,8 @@ function insertionSort(arr){
    for(let i = 1; i < arr.length; i++){
       let j = i; 
       
-      while(j > 0 && arr[j] < arr[j-1]){
+      // keep going back till the whole list is sorted
+      while(j > 0 && arr[j] < arr[j-1]){ 
          swap(j, j-1, arr)
          j--
       }

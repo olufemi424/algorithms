@@ -1,5 +1,5 @@
 // naive search
-const naiveSearch = (long, short) => {
+export const patternSearch = (long, short) => {
     let count = 0;
 
     // loop over the longer staring (because we want to be able to check )
@@ -33,4 +33,4 @@ const naiveSearch = (long, short) => {
     return count;
 }
 
-naiveSearch("lorie, loled", "lol")
+("lorie, loled", "lol")

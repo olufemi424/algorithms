@@ -1,4 +1,4 @@
-const binarySearch = (array, elem) => {
+export const binarySearch = (array, elem) => {
     let start = 0; // start of the array
     let end = array.length - 1; // end of the array
     var middle = Math.floor(array.length / 2); // middle of the array

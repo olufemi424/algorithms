@@ -27,13 +27,14 @@ class Solution:
     def sortColors(self, nums: List[int]) -> None:
         # Do not return anything, modify nums in-place instead.
         l, r = 0, len(nums) -1 #declare left and right pointeres
+        i = 0
 
         def swap(i, j): #swap items in-place
             tmp = nums[i]
             nums[i] = nums[j]
             nums[j] = tmp
 
-        while l <= r: # while we are not at the end of the array
+        while i <= r: # while we are not at the end of the array
             if nums[i] == 0: # if current item is 0, we swap and move left pointere
                 swap(l, i)
                 l += 1

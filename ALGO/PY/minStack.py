@@ -1,5 +1,7 @@
 
 class MinStack:
+    # the idea here is to keep track of the minimum value
+    # while pushing and popping from the stack
 
     def __init__(self):
         self.stack = []
